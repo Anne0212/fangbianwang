@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>方便网注册登录</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/common.js"></script>
+		<script src="js/jquery-1.10.2.js"></script>
+		<script src="js/js.js"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<header>
+			<!--头部顶端-->
+			<div class="top">
+				<img src="images/logo.png"/>
+				<img src="images/logo1.png"/>
+			</div>
+		</header>
+		<!--主体部分-->
+		<section>
+			<!--中间部分顶端-->
+			<div class="sec-top">
+				<img src="images/icon9_1.png"/><span>注册会员</span>				
+				<p>我已经注册，现在就登录<a href="#">登录</a></p>
+			</div>
+			<!--中间部分主体-->
+			<div class="sec-content">
+				<div class="con-top">
+					<ul>
+						<li>填写注册信息</li>
+						<li>接受并填写手机验证码</li>
+						<li>注册成功</li>
+					</ul>
+					<ul>
+						<li>
+							<img src="images/regis1.png"/>
+						</li>
+						<li>
+							<img src="images/regis3.png"/>
+						</li>
+						<li>
+							<img src="images/regis4.png"/>
+						</li>
+					</ul>
+				</div>
+				<!--中间部分主要内容-->
+				<div class="con-main">
+					<div class="main-left">
+						<div class="leftinput">
+							<span>手机号码</span><input type="text" name="phone" id="phone"/>
+							<br>
+							
+							<span>登录密码</span><input type="password" name="pwd" id="pwd">
+							<br>
+
+							<span>确认密码</span><input type="password" name="repwd" id="repwd">
+							<br>
+
+							<span>常用邮箱</span><input type="text" name="email" id="email">
+							<br>
+
+							<ul id="myul">
+								<li>
+									<img src="images/icon21_1.png" id="phoneInfor">
+									<img src="images/icon35.png" id="phoneOk">
+									<span id="phoneWrong">
+										<img src="images/icon21.png">
+										手机号码格式不正确
+									</span>
+								</li>
+
+								<li>
+									<img src="images/icon21_1.png" id="pwdInfor">
+									<img src="images/icon35.png" id="pwdOk">
+									<span id="pwdWrong">
+										<img src="images/icon21.png" >
+										密码格式错误
+									</span>
+								</li>
+								<li>
+									<img src="images/icon21_1.png" id="repwdInfor">
+									<img src="images/icon35.png" id="repwdOk">
+									<span id="repwdWrong">
+										<img src="images/icon21.png" >
+										两次密码不一致
+									</span>
+								</li>
+								<li>
+									<img src="images/icon21_1.png" id="emailInfor">
+									<img src="images/icon35.png" id="emailOk">
+									<span id="emailWrong">
+										<img src="images/icon21.png" >
+										邮箱格式不正确
+									</span>
+								</li>
+							</ul>
+
+							<span>图形验证码</span><input type="text" name="valid" id="val">
+							<img src="images/icon36.png" class="validimg">
+							<span id="valInfor">看不清?，<a href="#">换一张</a></span>
+						</div>
+						<div class="leftchb">
+							<div class="chb">
+								<input type="checkbox" value="" id="agree"><label for="agree">我已阅读并同意<a href="#">《方便网服务协议》</a></label>
+							</div>							
+						</div>
+						<div class="main-bottom">
+							<button type="button" id="applybtn">申请注册</button>
+						</div>
+					</div>
+					<div class="main-right">
+						<img src="images/webchat.png">
+						<img src="images/regis7.png">
+						<img src="images/regis6.png">
+					</div>
+				</div>				
+			</div>
+			<div class="sec-bottom">
+				<ul>
+					<li>关于我们
+						<span>|</span>
+					</li>
+					<li>免责声明
+						<span>|</span>
+					</li>
+					<li>常见问题
+						<span>|</span>
+					</li>
+					<li>联系我们
+						<span>|</span>
+					</li>
+					<li>人才招聘
+						<span>|</span>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<footer>
+			<div class="bottom">
+				<span>Copyright@2013-2016</span>
+				<span>|苏ICP备12063525号-4苏州乐卡网络科技有限公司</span>
+			</div>
+			
+		</footer>
+	</body>
+</html>

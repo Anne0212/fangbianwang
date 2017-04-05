@@ -1,0 +1,255 @@
+@charset "utf-8";
+body{
+	background: #fbfbfb;
+}
+/*头部*/
+header{
+	width:100%;
+	max-width: 1533px;
+	overflow: hidden;
+	background: #fff;
+	margin:0 auto;
+}
+/*头部顶端*/
+header .top{
+	width: 100%;
+	max-width: 1533px;
+	height: 98px;
+	border-bottom: 2px solid #7ec08a;
+}
+header .top img:nth-of-type(1){
+	width:166px;
+	height: 70px;
+	margin-left: 265px;
+	margin-top: 10px;
+}
+header .top img:nth-of-type(2){
+	width: 204px;
+	height: 46px;
+	margin-left: 25px;
+	margin-top: 3px;
+}
+/*主体部分*/
+section{
+	width: 100%;
+	max-width: 1533px;
+	height: 1015px;
+	border-bottom: 2px solid #e5e5e5;
+	overflow: hidden;
+	margin: 0 auto;
+}
+/*section 主体部分顶端*/
+section .sec-top{
+	width: 1000px;
+	height: 64px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+section .sec-top img{
+	width: 16px;
+	height:16px;
+	margin-left:12px;
+	margin-right:8px;
+	float: left;
+}
+section .sec-top span{
+	font:17px Microsoft YaHei;
+}
+section .sec-top p{
+	font:14px Microsoft YaHei;
+	color:#848485;
+	margin-left: 700px;
+	float: right;
+}
+/*section主体中间*/
+section .sec-content{
+	width: 1000px;
+	height: 845px;
+	margin: 0 auto;
+	border:1px solid #ddd;
+	box-shadow:2px 2px 1px #e5e5e5;
+}
+section .sec-content .con-top{
+	width:1000px;
+	height: 80px;
+	background-image: linear-gradient(to top,#fff,#f4f9f2);
+}
+section .sec-content .con-top ul:nth-of-type(1){
+	width: 934px;
+	height: 40px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+section .sec-content .con-top ul:nth-of-type(2){
+	width: 885px;
+	height: 30px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+section .sec-content .con-top ul li{
+	font: 15px Microsoft YaHei;
+}
+section .sec-content .con-main{
+	width: 1000px;
+	height: 766px;
+	background: #fff;
+	position: relative;
+}
+section .sec-content .con-main .main-left{
+	width: 775px;
+	height: 463px;
+	float: left;
+}
+section .sec-content .con-main .main-left .left1{
+	width: 775px;
+	height: 230px;
+	border-bottom: 1px dashed #ddd;
+}
+section .sec-content .con-main .main-left .left1 p{
+	font: 14px Microsoft YaHei;
+	margin-left:116px;
+	margin-top: 55px; 
+}
+section .sec-content .con-main .main-left .left1 p>span{
+	font: 15px Microsoft YaHei;
+	color: #ff9000;
+}
+section .sec-content .con-main .main-left .left1>div{
+	font: 14px Microsoft YaHei;
+	margin-left: 62px;
+	margin-top: 30px;
+}
+/* section .sec-content .con-main .main-left .left1>div span:first-of-type{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+} */
+section .sec-content .con-main .main-left .left1 input{
+	width: 161px;
+	height: 30px;
+	border: 1px solid #d9d9d9;
+	margin-left: 10px;
+}
+section .sec-content .con-main .main-left .left1 button{
+	width: 160px;
+	height: 34px;
+	background: #ff9000;
+	font: 17px Microsoft YaHei;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 115px;
+	border-radius: 3px;
+}
+section .sec-content .con-main .main-left .left2{
+	width: 775px;
+	height: 233px;
+}
+section .sec-content .con-main .main-left .left2 p{
+	font: 14px Microsoft YaHei;
+	margin-top: 47px;
+	margin-left: 115px;
+}
+section .sec-content .con-main .main-left .left2 button{
+	width: 130px;
+	height: 30px;
+	background: #eee;
+	border: 1px solid #d3d3d3;
+	border-radius: 3px;
+	margin-left: 115px;
+	margin-top: 30px;
+}
+section .sec-content .con-main .main-right{
+	width: 200px;
+	height: 394px;
+	border: 1px solid #dcdcdc;
+	float: right;
+	margin-top: 50px;
+	margin-right: 20px;
+	box-sizing: border-box;
+}
+section .sec-content .con-main .main-right img:nth-of-type(1){
+	margin-top: 25px;
+	margin-left: 20px;
+}
+section .sec-content .con-main .main-right img:nth-of-type(2){
+	margin-top: 22px;
+	margin-left: 55px;
+}
+section .sec-content .con-main .main-right img:nth-of-type(3){
+	margin-top: 22px;
+}
+section .sec-content .con-main .main-bottom{
+	width: 960px;
+	height: 288px;
+	background: url(../images/con-bottom_03.jpg);
+	position: absolute;
+	top: 460px;
+	left: 20px;
+}
+
+/*section 主体底部*/
+section .sec-bottom{
+	width: 1000px;
+	height: 107px;
+	margin: 0 auto;
+}
+section .sec-bottom ul{
+	width: 538px;
+	height: 35px;
+	margin: 70px auto;
+	display: flex;
+	justify-content: space-between;
+	font: 14px Microsoft YaHei;
+	color: #66666f;
+}
+/*底部*/
+footer{
+	width: 100%;
+	max-width: 1533px;
+	height: 25px;
+	padding-top: 25px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+footer .bottom{
+	width: 1000px;
+	height: 25px;
+	margin: 0 auto;
+	text-align: center;
+}
+footer span:first-of-type{
+	font: 12px Microsoft YaHei;
+	color: #999999;
+	font-weight: bold;
+}
+footer span:last-of-type{
+	font: 12px Microsoft YaHei;
+	font-weight: bold;
+}
+
+.radnum{
+	background: #dcdcdc;
+	color: #000;
+	padding: 8px;
+	margin-left: 3px;
+	width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,355 @@
+
+@charset "utf-8";
+body{
+	background: #fbfbfb;
+}
+/*头部*/
+header{
+	width:100%;
+	max-width: 1533px;
+	overflow: hidden;
+	background: #fff;
+	margin:0 auto;
+}
+/*头部顶端*/
+header .top{
+	width: 100%;
+	max-width: 1533px;
+	height: 98px;
+	border-bottom: 2px solid #7ec08a;
+}
+header .top img:nth-of-type(1){
+	width:166px;
+	height: 70px;
+	margin-left: 265px;
+	margin-top: 10px;
+}
+header .top img:nth-of-type(2){
+	width: 204px;
+	height: 46px;
+	margin-left: 25px;
+	margin-top: 3px;
+}
+
+/*主体部分*/
+section{
+	width: 100%;
+	max-width: 1533px;
+	height: 870px;
+	border-bottom: 2px solid #e5e5e5;
+	overflow: hidden;
+	margin: 0 auto;
+}
+/*section 主体部分顶端*/
+section .sec-top{
+	width: 1000px;
+	height: 64px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+section .sec-top img{
+	width: 16px;
+	height:16px;
+	margin-left:12px;
+	margin-right:8px;
+	float: left;
+}
+section .sec-top span{
+	font:17px Microsoft YaHei;
+}
+section .sec-top p{
+	font:14px Microsoft YaHei;
+	color:#848485;
+	margin-left: 700px;
+	float: right;
+}
+/*section主体中间*/
+section .sec-content{
+	width: 1000px;
+	height: 700px;
+	margin: 0 auto;
+	border-bottom:1px solid #ddd;
+	box-shadow:2px 2px 1px #e5e5e5;
+}
+section .sec-content .con-top{
+	width:1000px;
+	height: 80px;
+	background-image: linear-gradient(to top,#fff,#f4f9f2);
+}
+section .sec-content .con-top ul:nth-of-type(1){
+	width: 934px;
+	height: 40px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+section .sec-content .con-top ul:nth-of-type(2){
+	width: 885px;
+	height: 30px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+section .sec-content .con-top ul li{
+	font: 15px Microsoft YaHei;
+}
+section .sec-content .con-main{
+	width: 1000px;
+	height: 620px;
+	background: #fff;
+	box-sizing: border-box;
+	padding-top: 93px;
+}
+section .sec-content .con-main .main1{
+	width: 370px;
+	height: 84px;
+	margin-left: 307px;
+	position: relative;
+}
+section .sec-content .con-main .main1 img{
+	float: left;
+	margin-top: 5px;
+}
+section .sec-content .con-main .main1>span{
+	font:16px Microsoft YaHei;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+section .sec-content .con-main .main1 p{
+	font:16px Microsoft YaHei;
+	position: absolute;
+	left: 60px;
+	top: 45px;
+}
+section .sec-content .con-main .main1 p #name{
+	font: 16px Microsoft YaHei;
+	color: #ff9000;
+}
+section .sec-content .con-main .main1 button{
+	width: 123px;
+	height: 30px;
+	background: #ff9000;
+	color: #fff;
+	border-radius: 3px;
+	position: absolute;
+	top:40px; 
+	left:248px;
+	font:18px Microsoft YaHei;
+}
+section .sec-content .con-main .main2{
+	width: 200px;
+	height:216px;
+	margin: 55px auto;
+	padding-top: 25px;
+	text-align: center;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+}
+/*section 主体底部*/
+section .sec-bottom{
+	width: 1000px;
+	height: 107px;
+	margin: 0 auto;
+}
+section .sec-bottom ul{
+	width: 538px;
+	height: 35px;
+	margin: 70px auto;
+	display: flex;
+	justify-content: space-between;
+	font: 14px Microsoft YaHei;
+	color: #66666f;
+}
+/*底部*/
+footer{
+	width: 100%;
+	max-width: 1533px;
+	height: 25px;
+	text-align: center;
+	padding-top: 25px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+footer span:first-of-type{
+	font: 12px Microsoft YaHei;
+	color: #999999;
+	font-weight: bold;
+}
+footer span:last-of-type{
+	font: 12px Microsoft YaHei;
+	font-weight: bold;
+}
+
+/*弹框登录*/
+.over{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	background-color: rgba(1,1,1,0.3);
+	display: none;
+}
+.login{
+	width: 360px;
+	height: 380px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -140px;
+	margin-top:-50px;
+	z-index: 4;
+	border-radius: 8px;
+	background: #fff;
+	display: none;
+}
+.login .logintop ul{
+	width: 360px;
+	height: 55px;
+	box-sizing:border-box;
+}
+.login .logintop ul li{
+	width: 180px;
+	height: 55px;
+	float: left;
+	text-align: center;
+	font: 18px Microsoft YaHei;
+	padding-top: 20px;
+	box-sizing:border-box;
+	font-weight: bold;
+	color: #a6a5a3;
+	border-bottom: 1px solid #49a76b; 
+}
+/* .login .logintop ul li:nth-of-type(1){
+	color:#49a76b;;
+	border-bottom: 3px solid #49a76b; 
+} */
+
+.login .wrap .loginpwd{
+	width: 360px;
+	height: 327px;
+}
+.login .wrap .loginpwd>input{
+	margin-top:26px;
+	margin-left: 30px;
+	width: 300px;
+	height: 40px;
+	color:#63615c;
+	padding-left: 46px;
+	box-sizing:border-box;
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+}
+.login .wrap .loginpwd>div:nth-of-type(2){
+	width: 300px;
+	height: auto;
+	margin: 16px auto 0 auto;
+	display: flex;
+	justify-content:space-between;
+}
+.pwderror{
+	width: 130px;
+	padding: 6px 6px;
+	margin: 10px auto 0 auto;
+	color: #fff;
+	background:#ff9000; 
+	text-align: center;
+	display: none;
+}
+.login .wrap .loginpwd>div a{
+	color:#76bcf0;
+}
+.login .wrap .loginpwd button{
+	color:#fff;
+	font: 18px Microsoft YaHei;
+	padding: 8px 130px;
+	margin-left:34px;
+	margin-top:20px;
+	background: #49a75b;
+	border-radius: 5px;
+}
+.login .wrap .regist{
+	width: 330px;
+	height: 50px;
+	margin: 20px auto;
+	text-align: center;
+	background: #f7fbf5;
+	padding-top:18px;
+	box-sizing:border-box;
+}
+.login .wrap .regist p{
+	font: 16px Microsoft YaHei;
+}
+.login .wrap .codelogin{
+	width: 360px;
+	height: 327px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -140px;
+	margin-top:4px;
+	z-index: 2;
+	border-radius: 8px;
+	display: none;
+}
+
+.login .wrap .codelogin>input{
+	margin-top:26px;
+	margin-left: 30px;
+	width: 126px;
+	height: 40px;
+	color:#63615c;
+	padding-left: 46px;
+	box-sizing:border-box;
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+}
+.login .wrap .codelogin>input:nth-of-type(1){
+	margin-top:26px;
+	margin-left: 30px;
+	width: 300px;
+	height: 40px;
+	color:#63615c;
+	padding-left: 46px;
+	box-sizing:border-box;
+	border: 1px solid #e0e0e0;
+}
+.login .wrap .codelogin span:nth-of-type(2){
+	padding: 6px 9px;
+	border:1px solid #eeeeee;
+	font: 10px Microsoft YaHei;
+}
+.login .wrap .codelogin a{
+	color:#21aee4;
+}
+.login .wrap .codelogin button{
+	color:#fff;
+	font:18px Microsoft YaHei;
+	padding: 8px 130px;
+	margin-left:34px;
+	margin-top:20px;
+	background: #49a75b;
+	border-radius: 5px;
+}
+.login .wrap .codelogin .regist2{
+	width: 330px;
+	height: 50px;
+	margin: 20px auto;
+	text-align: center;
+	background: #f7fbf5;
+	padding-top:18px;
+	box-sizing:border-box;
+}
+.login .wrap .codelogin .regist2 p{
+	font: 16px Microsoft YaHei;
+}
+
+/*悬浮时的样式*/
+.login .logintop ul li.click{
+	color:#49a75b;
+	border-bottom: 3px solid #49a75b;
+}

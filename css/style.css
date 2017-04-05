@@ -1,0 +1,277 @@
+@charset "utf-8";
+body{
+	background: #fbfbfb;
+}
+/*头部*/
+header{
+	width:100%;
+	max-width: 1533px;
+	overflow: hidden;
+	background: #fff;
+	margin: 0 auto;
+}
+/*头部顶端*/
+header .top{
+	width: 1000px;
+	height: 98px;
+	border-bottom: 2px solid #7ec08a;
+	margin: 0 auto;
+}
+header .top img:nth-of-type(1){
+	width:166px;
+	height: 70px;
+	margin-left: 265px;
+	margin-top: 10px;
+}
+header .top img:nth-of-type(2){
+	width: 204px;
+	height: 46px;
+	margin-left: 25px;
+	margin-top: 3px;
+}
+/*主体部分*/
+section{
+	width: 100%;
+	max-width: 1533px;
+	height: 718px;
+	border-bottom: 2px solid #e5e5e5;
+	overflow: hidden;
+	margin: 0 auto;
+}
+/*主体部分顶端*/
+section .sec-top{
+	width: 1000px;
+	height: 64px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+section .sec-top img{
+	width: 16px;
+	height:16px;
+	margin-left:12px;
+	margin-right:8px;
+	float: left;
+}
+section .sec-top span{
+	font:17px Microsoft YaHei;
+}
+section .sec-top p{
+	font:14px Microsoft YaHei;
+	color:#848485;
+	margin-left: 700px;
+	float: right;
+}
+/*主体部分中间*/
+section .sec-content{
+	width: 1000px;
+	height: 550px;
+	margin: 0 auto;
+	border:1px solid #ddd;
+	box-shadow:2px 2px 1px #e5e5e5;
+}
+section .sec-content .con-top{
+	width:1000px;
+	height: 80px;
+	background-image: linear-gradient(to top,#fff,#f4f9f2);
+}
+section .sec-content .con-top ul:nth-of-type(1){
+	width: 934px;
+	height: 40px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+section .sec-content .con-top ul:nth-of-type(2){
+	width: 885px;
+	height: 30px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+section .sec-content .con-top ul li{
+	font: 15px Microsoft YaHei;
+}
+section .sec-content .con-main{
+	width: 1000px;
+	height: 466px;
+	background: #fff;
+}
+section .sec-content .con-main .main-left{
+	width: 767px;
+	height: 416px;
+	float: left;
+}
+section .sec-content .con-main .main-left .leftinput{
+	width: 572px;
+	height: 255px;
+	padding-top: 50px;
+}
+section .sec-content .con-main .main-left .leftinput>span{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	font:15px Microsoft YaHei;
+}
+section .sec-content .con-main .main-left .leftinput input{
+	width: 244px;
+	height: 30px;
+	border:1px solid #ddd;
+}
+section .sec-content .con-main .main-left .leftinput input:focus{
+	border: 1px solid #77d924;
+}
+section .sec-content .con-main .main-left .leftinput input:last-of-type{
+	width: 130px;
+	height: 30px;
+	border:1px solid #ddd;
+}
+section .sec-content .con-main .main-left .leftinput #valInfor{
+	padding-right: 0;
+	width: 120px;
+}
+section .sec-content .con-main .main-left .leftinput ul{
+	width: 250px;
+	height: 196px;
+	margin-top: -170px;
+	margin-left: 335px;
+}
+
+section .sec-content .con-main .main-left .leftinput ul li{
+	height: 30px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 12px;
+}
+section .sec-content .con-main .main-left .leftinput ul li>img{
+	display: none;
+}
+section .sec-content .con-main .main-left .leftinput ul li>img:nth-of-type(2){
+	margin-right: 10px;
+	margin-left: 25px;
+}
+section .sec-content .con-main .main-left .leftinput ul li>span{
+	display: inline-block;
+	width: 193px;
+	height: 20px;
+	border: 1px solid #ffb924;
+	background: #fff6cf;
+	font: 14px Microsoft YaHei;
+	color: #fd874c;
+	margin-left: 15px;
+	display: none;
+}
+section .sec-content .con-main .main-left .leftinput ul li>span img{
+	margin-left: 5px;
+}
+section .sec-content .con-main .main-left .leftinput .validimg{
+	width: 70px;
+	height: 32px;
+}
+section .sec-content .con-main .main-left .leftchb{
+	width: 572px;
+	height: 75px;
+}
+section .sec-content .con-main .main-left .leftchb .chb{
+	width: 462px;
+	padding-left: 110px;
+	font:15px Microsoft YaHei;
+}
+section .sec-content .con-main .main-left .main-bottom button{
+	width: 130px;
+	height: 32px;
+	background: #ff9000;
+	font: 20px Microsoft YaHei;
+	color: #fff;
+	margin-left: 110px;
+	border-radius: 5px;
+}
+/*主体部分右侧*/
+section .sec-content .con-main .main-right{
+	width: 200px;
+	height: 397px;
+	border:1px solid #e5e5e5;
+	margin-top: 50px;
+	margin-right: 20px;
+	float: right;
+}
+
+section .sec-content .con-main .main-right img:nth-of-type(1){
+	margin-top: 25px;
+	margin-left: 20px;
+}
+section .sec-content .con-main .main-right img:nth-of-type(2){
+	margin-top: 22px;
+	margin-left: 55px;
+}
+section .sec-content .con-main .main-right img:nth-of-type(3){
+	margin-top: 22px;
+}
+/*主体部分底端*/
+section .sec-bottom{
+	width: 1000px;
+	height: 107px;
+	margin: 0 auto;
+}
+section .sec-bottom ul{
+	width: 538px;
+	height: 35px;
+	margin: 70px auto;
+	display: flex;
+	justify-content: space-between;
+	font: 14px Microsoft YaHei;
+	color: #66666f;
+}
+footer{
+	width: 100%;
+	max-width: 1533px;
+	height: 25px;
+	padding-top: 25px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+footer .bottom{
+	width: 1000px;
+	height: 25px;
+	margin: 0 auto;
+	text-align: center;
+}
+footer span:first-of-type{
+	font: 12px Microsoft YaHei;
+	color: #999999;
+	font-weight: bold;
+}
+footer span:last-of-type{
+	font: 12px Microsoft YaHei;
+	font-weight: bold;
+}
+/*验证正确，后面显示的提示信息*/
+
+/*验证错误时，input边框变成黄色*/
+.wrongYellow{
+	border: 1px solid #ffb924;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
